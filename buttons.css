@@ -1,0 +1,17 @@
+a{
+  position:relative;
+  width: 40%;
+  height: 6%;
+  text-align: center;
+  line-height: 3vw;
+  border: solid 1px;
+  border-radius: 5px;
+  margin: 2vw;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.5vw;
+  color: royalblue;
+  background-color: #F0F8FF;
+  text-decoration: none;
+  display: block;
+}

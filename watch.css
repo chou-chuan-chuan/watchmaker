@@ -1,0 +1,70 @@
+.words {
+    width: 80vw;
+    height: 7vw;
+/*    background-image: url("point_zero.png");*/
+    line-height: 3vw;
+    text-align: left;
+    color: royalblue;
+    font-size: 10vw;
+    letter-spacing: 0.3vw;
+    border: solid;
+    border-color: royalblue;
+    font-family: serif;
+    padding-top: 0.8%;
+  /*height: fit-content;  
+  要怎麼讓border與字吻合? */
+}
+
+.words{
+  /*border: solid 1px;*/
+  font-size: 1.5vw;
+  position: relative;
+  top: 10px;
+  font-family: cursive;
+}
+
+
+
+html, body{
+  margin-top: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 0;
+}
+
+* {                                   /*讓它頁面不要左右滑動*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.image{
+    position: relative;
+    margin-left: 5%;
+    width: 50vw;
+    height: 95vh;
+    background-size: 100%;
+
+}
+
+
+.show{
+  border: solid 1px;
+}
+
+
+
+.border{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+/*  border: solid 1px;*/
+  display: block;
+  margin: auto;
+}
+
+
+
